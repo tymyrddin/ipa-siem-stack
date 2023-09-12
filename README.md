@@ -1,25 +1,21 @@
 # IPA SIEM Stack
 
-A daunting project: setting up a SIEM stack for IPA to facilitate the collection of data from survivor devices to be able to investigate tactics, techniques, and procedures (TTPs) used by adversaries in their surveillance of survivors, and with found indicators of compromise (IoCs), in the future, offer incident response handling and health monitoring to survivors.
+Setting up a SIEM stack for IPA to facilitate the collection of data from survivor devices to be able to investigate tactics, techniques, and procedures (TTPs) used by adversaries in their surveillance of survivors, and with found indicators of compromise (IoCs), in the future, offer incident response handling to survivors.
 
 ## Deployment strategy
 
-Initially, we do not expect the usual high amount of data for a SIEM stack, so we can use Dockers and Docker Compose in our pipeline. The simplest and safest route is to install Docker and Compose on our production host, then connect to it over SSH. 
-
-We can beg, borrow, and steal, and fork existing Dockers to make changes and build our own stack for IPA project purposes.
-
-Also see our Roadmap.
+Initially, we do not expect the usual high amount of data for a SIEM stack. The simplest and safest route is to install Docker and Compose on our production host, then connect to it over SSH. We can beg, borrow, and steal, and fork existing Dockers to make changes and build our own stack for IPA project purposes.
 
 ### Docker host
 
 * [Choose host (OS)](https://github.com/tymyrddin/ipa-siem-stack/issues/1)
-* [Hardening Docker host](https://github.com/tymyrddin/ipa-siem-stack/issues/2)
+* [Setting up and hardening Docker host](https://github.com/tymyrddin/ipa-siem-stack/issues/2)
 * [Installing Docker and Docker Compose](https://github.com/tymyrddin/ipa-siem-stack/issues/3)
 * [Set up certificates](https://github.com/tymyrddin/ipa-siem-stack/issues/4)
 
 ### Dockers
 
-* Wazuh Indexer (SIEM Backend storage)
+* [Wazuh Indexer (SIEM Backend storage)](https://github.com/tymyrddin/ipa-siem-stack/issues/5)
 * Wazuh Dashboards (Kibana)
 * Graylog
 * Wazuh Manager/Agents
