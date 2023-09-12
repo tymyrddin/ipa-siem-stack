@@ -27,7 +27,3 @@ Initially, we do not expect the usual high amount of data for a SIEM stack. The 
 * Shuffle
 * InfluxDB/Telegraf
 
-## Resources
-
-* [Stories from Survivors: Privacy & Security Practices when Coping with Intimate Partner Abuse](https://dl.acm.org/doi/10.1145/3025453.3025875) , Tara Matthews, Kathleen O’Leary, Anna Turner, Manya Sleeper, Jill Palzkill Woelfer, Martin Shelton, Cori Manthorne*, Elizabeth F. Churchill, Sunny Consolvo, Google, Mountain View, CA, USA
-* The [Digital Defenders Partnership](https://www.digitaldefenders.org/about-ddp/) offers support to human rights defenders under digital threat, and works to strengthen local rapid response networks.
