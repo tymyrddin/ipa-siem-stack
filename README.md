@@ -1,6 +1,6 @@
 # IPA SIEM Stack
 
-Setting up a SIEM stack for IPA to facilitate the collection of data from survivor devices to be able to investigate tactics, techniques, and procedures (TTPs) used by adversaries in their surveillance of survivors, and with found indicators of compromise (IoCs), in the future, offer incident response handling to survivors.
+Setting up a SIEM stack for IPA to facilitate the collection of data from survivor devices to be able to investigate [tactics, techniques, and procedures (TTPs)](https://github.com/tymyrddin/ipa-siem-stack/wiki) used by adversaries in their surveillance of survivors, and with found indicators of compromise (IoCs), in the future, offer incident response handling to survivors.
 
 ## Deployment strategy
 
