@@ -12,10 +12,10 @@ Also see our Roadmap.
 
 ### Docker host
 
-* Not chosen yet.
-* Hardening Docker host
-* Installing Docker and Docker Compose
-* Set up certificates
+* [Choose host (OS)](https://github.com/tymyrddin/ipa-siem-stack/issues/1)
+* [Hardening Docker host](https://github.com/tymyrddin/ipa-siem-stack/issues/2)
+* [Installing Docker and Docker Compose](https://github.com/tymyrddin/ipa-siem-stack/issues/3)
+* [Set up certificates](https://github.com/tymyrddin/ipa-siem-stack/issues/4)
 
 ### Dockers
 
