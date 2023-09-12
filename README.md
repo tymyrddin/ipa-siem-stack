@@ -16,9 +16,9 @@ Initially, we do not expect the usual high amount of data for a SIEM stack. The 
 ### Dockers
 
 * [Wazuh Indexer (SIEM Backend storage)](https://github.com/tymyrddin/ipa-siem-stack/issues/5)
-* Wazuh Dashboards (Kibana)
-* Graylog
-* Wazuh Manager/Agents
+* [Wazuh Dashboard (Kibana)](https://github.com/tymyrddin/ipa-siem-stack/issues/6)
+* [Graylog](https://github.com/tymyrddin/ipa-siem-stack/issues/7)
+* [Wazuh Manager/Agents (Wazuh server)](https://github.com/tymyrddin/ipa-siem-stack/issues/8)
 * Grafana
 * MISP
 * OpenCTI
