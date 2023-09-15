@@ -1,2 +1,6 @@
 # PyCharm files
 .idea/
+
+# Certs
+*.pem
+*.key
