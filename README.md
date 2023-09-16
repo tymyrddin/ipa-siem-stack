@@ -3,7 +3,6 @@
 Setting up a SIEM stack for IPA to facilitate the collection of data from survivor devices to be able to investigate [tactics, techniques, and procedures (TTPs)](https://github.com/tymyrddin/ipa-siem-stack/wiki) used by adversaries in their surveillance of survivors, and with found indicators of compromise (IoCs), in the future, offer incident response handling to survivors. See [Roadmap](https://github.com/tymyrddin/ipa-siem-stack/wiki/Roadmap).
 
 
-
 ## Requirements
 
 ## Increase max_map_count on the Docker host
@@ -53,13 +52,13 @@ Start the environment with docker-compose:
 ***In the foreground:***
 
 ```
-$ docker-compose up
+$ sudo docker-compose up
 ```
 
 ***In the background:***
 
 ```
-$ docker-compose up -d
+$ sudo docker-compose up -d
 ```
 
-In development version, point browser to https://localhost, in production to https://domainname or https://IPaddress.
+In development version, point browser to https://localhost, in production to https://domainname or https://IPaddress (mind the ***https://***)
